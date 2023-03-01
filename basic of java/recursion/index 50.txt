@@ -1,0 +1,16 @@
+all the numbers that are prime under a number
+import java.io.*; // for handling input/output
+import java.util.*;
+
+  class Main {
+public static void main(String args[]) {  
+  Scanner scanner = new Scanner(System.in);
+  int n = scanner.nextInt();
+  for(int i =1; i<=n;i++){
+      if (n%i!=0){
+           
+     System.out.print((i));
+      }
+  }
+}
+  } 
